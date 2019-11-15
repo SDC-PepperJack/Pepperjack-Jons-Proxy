@@ -1,4 +1,5 @@
-const express = require('express');
+require('newrelic');
+express = require('express');
 const proxy = require('http-proxy-middleware');
 const app = express();
 const PORT = 5001;
